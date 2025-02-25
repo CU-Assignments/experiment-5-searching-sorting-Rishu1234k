@@ -13,6 +13,7 @@ Example 1:Input: n = 5, bad = 4Output: 4Explanation:call isBadVersion(3) -> fals
 Example 2:Input: n = 1, bad = 1Output: 1
 Constraints:1 <= bad <= n <= 231 - 1
 
+
 QUESTION3:- Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.
 You must solve this problem without using the library's sort function.
 
@@ -21,6 +22,7 @@ Example 1:Input: nums = [2,0,2,1,1,0] Output: [0,0,1,1,2,2]
 Example 2: Input: nums = [2,0,1]
 Output: [0,1,2]
 Constraints:n == nums.length 1 <= n <= 300 nums[i] is either 0, 1, or 2.
+
 
 QUESTION 4:-Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.The overall run time complexity should be O(log (m+n)). 
 Example 1:
@@ -40,6 +42,7 @@ nums2.length == n
 0 <= n <= 1000
 1 <= m + n <= 2000
 -106 <= nums1[i], nums2[i] <= 106
+
 
 QUESTION 5:- Given an n x n matrix where each of the rows and columns is sorted in ascending order, return the kth smallest element in the matrix.Note that it is the kth smallest element in the sorted order, not the kth distinct element.You must find a solution with a memory complexity better than O(n2).
 Example 1:
