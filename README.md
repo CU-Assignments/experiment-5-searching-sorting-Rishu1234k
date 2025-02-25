@@ -1,16 +1,13 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/RMIP9yyr)
-# 22BCS_IOT-634-A-Exp-5_AP
+QUESTION 1:- Merge Sorted Array:-You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.Merge nums1 and nums2 into a single array sorted in non-decreasing order.The final sorted array should not be returned by the function, but instead be stored inside the array nums1. To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should be merged, and the last n elements are set to 0 and should be ignored. nums2 has a length of n.
+Example 1:Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3Output: [1,2,2,3,5,6]Explanation: The arrays we are merging are [1,2,3] and [2,5,6].The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
+Example 2:Input: nums1 = [1], m = 1, nums2 = [], n = 0Output: [1]Explanation: The arrays we are merging are [1] and [].The result of the merge is [1].Example 3:Input: nums1 = [0], m = 0, nums2 = [1], n = 1Output: [1]Explanation: The arrays we are merging are [] and [1].The result of the merge is [1].Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1. 
+Constraints:nums1.length == m + nnums2.length == n0 <= m, n <= 2001 <= m + n <= 200-109 <= nums1[i], nums2[j] <= 109
 
-1. Merge Sorted Array	--	https://leetcode.com/problems/merge-sorted-array/
-2. First Bad Version	--	https://leetcode.com/problems/first-bad-version/
-3. Sort Colors	--	https://leetcode.com/problems/sort-colors/
-4. Top K frequent elements	--	https://leetcode.com/problems/top-k-frequent-elements/
-5. Kth Largest element in an array	--	https://leetcode.com/problems/kth-largest-element-in-an-array/
-6. Find Peak Element	--	https://leetcode.com/problems/find-peak-element/
-7. Search For a range	--	https://leetcode.com/problems/search-for-a-range/
-8. Merge Intervals	--	https://leetcode.com/problems/merge-intervals/
-9. Search in Rotated Sorted Array	--	https://leetcode.com/problems/search-in-rotated-sorted-array/
-10. Search a 2D Matrix II	--	https://leetcode.com/problems/search-a-2d-matrix-ii/
-11. Wiggle Sort 2	--	https://leetcode.com/problems/wiggle-sort-2/
-12. Kth smallest element in a sorted matrix	--	https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
-13. Median of Two Sorted Arrays	--	https://leetcode.com/problems/median-of-two-sorted-arrays/
+
+QUESTION 2:-You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad.
+Suppose you have n versions [1, 2, ..., n] and you want to find out the first bad one, which causes all the following ones to be bad.
+You are given an API bool isBadVersion(version) which returns whether version is bad. Implement a function to find the first bad version. You should minimize the number of calls to the API.
+Example 1:Input: n = 5, bad = 4Output: 4Explanation:call isBadVersion(3) -> falsecall isBadVersion(5) -> truecall isBadVersion(4) -> trueThen 4 is the first badversion.Example 2:Input: n = 1, bad = 1Output: 1
+Constraints:1 <= bad <= n <= 231 - 1
+
+QUESTION3:-
